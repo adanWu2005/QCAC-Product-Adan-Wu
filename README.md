@@ -1,26 +1,26 @@
 # Keychron K6 Pro Product Page
 
-A modern, responsive product page showcasing the **Keychron K6 Pro QMK/VIA Wireless Mechanical Keyboard**. Built with React and Vite, this application demonstrates a clean UI/UX with local data persistence using localStorage.
+For my QCAC product assessment, the product I have chosen is one that is a real item. It is a **Keychron K6 Pro QMK/VIA Wireless Mechanical Keyboard**. This project is developed with React and Vite and shows a clean UI/UX, preserving local data using localStorage.
 
 ## Description
 
-This project is a fully functional product landing page that presents the Keychron K6 Pro mechanical keyboard. The page includes:
+This application is a functional product showcase page, presenting the Keychron K6 Pro mechanical keyboard. The page includes:
 
 - **Product Overview**: Displays the product name, image, description, and key highlights
 - **Features Section**: Showcases 6 key features of the keyboard in a clean card layout
 - **Customer Reviews**: Displays sample reviews and user-submitted reviews
-- **Add Review Form**: Allows users to submit reviews that are saved to localStorage and displayed instantly
+- **Add Review Form**: Form which allows users to submit reviews baded on their opinions on the item. All reviews are saved in local storage.
 
-All user-submitted reviews persist in the browser's localStorage, ensuring data remains available across sessions.
+Reviews will remain in the local storage of the browser, making sure data is still available across sessions.
 
 ## Prerequisites
 
-Before you begin, ensure you have the following installed:
+Ensure the following is installed:
 
 - **Node.js** (version 14 or higher)
 - **npm** (version 6 or higher) - comes with Node.js
 
-You can verify your installations by running:
+Verify installations of the following by running:
 ```bash
 node --version
 npm --version
@@ -74,7 +74,7 @@ QCAC-Product-Adan-Wu/
 ## Features
 
 ### Product Overview
-- Responsive product image with fallback placeholder
+- A responsive image of the product with a fallback placeholder
 - Comprehensive product description
 - Key highlights (layout, connectivity, switches)
 
@@ -101,15 +101,15 @@ QCAC-Product-Adan-Wu/
 
 ## Challenges
 
-1. **localStorage Integration**: Implementing a seamless localStorage system that combines sample reviews with user-submitted reviews while maintaining proper data structure and avoiding duplicates.
+1. **localStorage Integration**: Ensuring the localStorage system is stable and working, combining the three sample reviews with any reviews submitted by the user, whilst also maintaining proper data structure.
 
-2. **Responsive Design**: Creating a mobile-first, responsive layout that works seamlessly across all device sizes while maintaining visual hierarchy and readability.
+2. **Responsive Design**: Ensuring a responsive layout that works flawlessly across every possible device size.
 
-3. **Form Validation**: Building a robust form validation system that provides clear error messages and prevents invalid submissions.
+3. **Form Validation**: Providing clear error messages for invalid submissions of the form using a robust validation system.
 
-4. **State Management**: Managing component state effectively to ensure new reviews appear instantly without page refresh while maintaining data consistency.
+4. **State Management**: Ensuring state is effectively managed to insure instant rendering of new reviews while maintaining consistancy within the data.
 
-5. **Image Handling**: Implementing proper image fallback mechanisms for external product images that may fail to load.
+5. **Image Handling**: Proper image fallback mechanisms are implemented for images that may fail to load.
 
 ## Available Scripts
 
@@ -130,13 +130,3 @@ Tested on:
 - Safari (latest)
 - Edge (latest)
 
-## Notes
-
-- Reviews are stored in localStorage under the key `keychronK6Reviews`
-- Sample reviews are hardcoded and always displayed
-- User-submitted reviews persist across browser sessions
-- The product image uses an external URL with a fallback placeholder
-
-## License
-
-This project is created for assessment purposes.
